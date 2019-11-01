@@ -11,6 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="parent" target="1.8" />
       <module name="show-consumer" target="1.8" />
       <module name="showcase-provider" target="1.8" />
       <module name="spring-cloud-alibaba" target="1.5" />
