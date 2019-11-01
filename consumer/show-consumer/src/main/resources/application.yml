@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: showcase-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.14:8848
+    sentinel:
+      transport:
+        dashboard: 192.168.1.14:8849
+server:
+  port: 8901

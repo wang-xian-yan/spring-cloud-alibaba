@@ -12,6 +12,7 @@
     <description>SpringCloudAlibaba集成示例</description>
     <modules>
         <module>provider/showcase-provider</module>
+        <module>consumer/show-consumer</module>
     </modules>
 </project>
 

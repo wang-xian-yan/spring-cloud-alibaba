@@ -1,8 +1,7 @@
-package org.yan.sca.provider;
+package org.yan.sca.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
@@ -11,14 +10,11 @@ import org.springframework.web.client.RestTemplate;
  * @author wangx
  */
 @SpringBootApplication
-@EnableDiscoveryClient
-public class ShowcaseProviderApplication {
+public class ShowConsumerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ShowcaseProviderApplication.class, args);
+        SpringApplication.run(ShowConsumerApplication.class, args);
     }
-
-
     @Bean
     @LoadBalanced
     public RestTemplate restTemplate(){

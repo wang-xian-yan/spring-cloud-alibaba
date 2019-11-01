@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumer/show-consumer/show-consumer.iml" filepath="$PROJECT_DIR$/consumer/show-consumer/show-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider/showcase-provider/showcase-provider.iml" filepath="$PROJECT_DIR$/provider/showcase-provider/showcase-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba.iml" />
     </modules>

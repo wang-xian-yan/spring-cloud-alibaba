@@ -7,15 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="showcase-provider" />
+        <module name="show-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="show-consumer" target="1.8" />
       <module name="showcase-provider" target="1.8" />
       <module name="spring-cloud-alibaba" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="show-consumer" options="-parameters" />
       <module name="showcase-provider" options="-parameters" />
     </option>
   </component>
